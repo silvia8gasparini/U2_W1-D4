@@ -14,9 +14,9 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    width: 800px;
-    height: 500px;
+    margin-top: 60px;
+    width: 900px;
+    height: 550px;
     background: linear-gradient(#005529, #c5fbc8);
     padding: 10px;
     border-radius: 10px;
@@ -30,9 +30,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5em;
-    width: 150px;
-    height: 130px;
+    font-size: 1.7em;
+    width: 170px;
+    height: 150px;
     margin: 10px;
     border:2px solid #9f0000;
     border-radius: 10px;
@@ -57,32 +57,32 @@ body{
 
 #post-it-3 {
     transform: rotate(-14deg);
-    background: linear-gradient(#ff8c00, #ffffff);;
+    background: linear-gradient(#ff8c00, #ffffff);
 }
 
 #post-it-4 {
     transform: rotate(8deg);
-    background: linear-gradient(#f90000, #ffffff);;
+    background: linear-gradient(#f90000, #ffffff);
 }
 
 #post-it-5 {
     transform: rotate(13deg);
-    background: linear-gradient(#ffee05, #ffffff);;
+    background: linear-gradient(#ffee05, #ffffff);
 }
 
 #post-it-6 {
     transform: rotate(-14deg);
-    background: linear-gradient(#ff8c00, #ffffff);;
+    background: linear-gradient(#ff8c00, #ffffff);
 }
 
 #post-it-7 {
     transform: rotate(8deg);
-    background: linear-gradient(#ffee05, #ffffff);;
+    background: linear-gradient(#ffee05, #ffffff);
 }
 
 #post-it-8 {
     transform: rotate(-11deg);
-    background: linear-gradient(#ff0505, #ffffff);;
+    background: linear-gradient(#ff0505, #ffffff);
 }
 
 #post-it-1:hover, #post-it-2:hover, #post-it-3:hover, #post-it-4:hover, #post-it-5:hover, #post-it-6:hover, #post-it-7:hover, #post-it-8:hover {
