@@ -52,7 +52,7 @@ body{
 
 #post-it-2 {
     transform: rotate(6deg);
-    background: linear-gradient(#ff0505, #ffffff);;
+    background: linear-gradient(#ff0505, #ffffff);
 }
 
 #post-it-3 {
@@ -90,3 +90,4 @@ body{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); 
     transition: all 0.30s linear 0s
 }
+
