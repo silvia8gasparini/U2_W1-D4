@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+
+
+body{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Princess Sofia";
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 800px;
+    height: 500px;
+    background: linear-gradient(#005529, #c5fbc8);
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 20px groove rgb(120, 69, 15);
+    border-top: 8px groove #005529;
+    border-left: 8px groove #005529;
+    border-right: 8px groove #005529;
+}
+
+.post-it {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 150px;
+    height: 130px;
+    margin: 10px;
+    border:2px solid #9f0000;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.541);
+    cursor: pointer;
+}
+
+.post-it p {
+    padding: 0 20px;
+    text-align: center;
+}
+
+#post-it-2 { transition: rotate(-5deg); }
+#post-it-3 { transition: -7deg;  }
+#post-it-4 { transition: -7deg;  }
+#post-it-5 { transition: -7deg;  }
+#post-it-6 { transition: -7deg;  }
+#post-it-7 { transition: -7deg;  }
+#post-it-8 { transition: -7deg;  }
+
+
+#post-it-1 {
+    transform: rotate(-10deg);
+    background: linear-gradient(#ffee05, #ffffff);
+}
+
+#post-it-2 {
+transform: rotate(6deg);
+    background: linear-gradient(#ff0505, #ffffff);;
+}
+
+#post-it-3 {
+    transform: rotate(-14deg);
+    background: linear-gradient(#ff8c00, #ffffff);;
+}
+
+#post-it-4 {
+    transform: rotate(8deg);
+    background: linear-gradient(#f90000, #ffffff);;
+}
+
+#post-it-5 {
+    transform: rotate(13deg);
+    background: linear-gradient(#ffee05, #ffffff);;
+}
+
+#post-it-6 {
+    transform: rotate(-14deg);
+    background: linear-gradient(#ff8c00, #ffffff);;
+}
+
+#post-it-7 {
+    transform: rotate(8deg);
+    background: linear-gradient(#ffee05, #ffffff);;
+}
+
+#post-it-8 {
+    transform: rotate(-11deg);
+    background: linear-gradient(#ff0505, #ffffff);;
+}
+
+#post-it-1:hover, #post-it-2:hover, #post-it-3:hover, #post-it-4:hover, #post-it-5:hover, #post-it-6:hover, #post-it-7:hover, #post-it-8:hover {
+    transform: scale(1.1) rotate(0deg); 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); 
+    transition: all 0.30s linear 0s
+}
