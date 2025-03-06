@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
 
-
 body{
     width: 100%;
     margin: 0;
@@ -46,22 +45,13 @@ body{
     text-align: center;
 }
 
-#post-it-2 { transition: rotate(-5deg); }
-#post-it-3 { transition: -7deg;  }
-#post-it-4 { transition: -7deg;  }
-#post-it-5 { transition: -7deg;  }
-#post-it-6 { transition: -7deg;  }
-#post-it-7 { transition: -7deg;  }
-#post-it-8 { transition: -7deg;  }
-
-
 #post-it-1 {
     transform: rotate(-10deg);
     background: linear-gradient(#ffee05, #ffffff);
 }
 
 #post-it-2 {
-transform: rotate(6deg);
+    transform: rotate(6deg);
     background: linear-gradient(#ff0505, #ffffff);;
 }
 
